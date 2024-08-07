@@ -7,7 +7,7 @@ const Display = () => {
       <div className="display-content">
         <h1>Welcome to Our Store</h1>
         <p>Discover amazing products and offers</p>
-        <a href="http://localhost:5173/items" className="cta-button">Shop Now</a>
+        <a href="http://https://project-f-bsis.vercel.app/items" className="cta-button">Shop Now</a>
       </div>
     </div>
   );
