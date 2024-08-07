@@ -25,7 +25,7 @@ function Login() {
     const { email, password } = formData;
 
     try {
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("http://https://project-b-1qf4.onrender.com/api/auth/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -10,7 +10,7 @@ function ShoppingPage() {
   const [whitewines, setWhitewines] = useState([]);
   const [rosewines, setRosewines] = useState([]);
   const [sparklingwines, setSparklingwines] = useState([]);
-  const url = "http://localhost:5000/";
+  const url = "http://https://project-b-1qf4.onrender.com/";
 
   useEffect(() => {
     const fetchRedWine = async () => {
